@@ -243,4 +243,7 @@
       sex = #{sex,jdbcType=INTEGER}
     where age = #{age,jdbcType=INTEGER}
   </update>
+  <select id="getAllStudents" resultType="com.easy.springboot.spring_with_mybatis.entity.Student">
+    SELECT * FROM student
+  </select>
 </mapper>

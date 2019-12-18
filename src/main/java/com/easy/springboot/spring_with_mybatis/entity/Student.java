@@ -96,4 +96,7 @@ public class Student {
     public void setSex(Integer sex) {
         this.sex = sex;
     }
+    public String toString(){
+        return  "Student{name="+name+",sex="+sex+",age="+age+"}";
+    }
 }

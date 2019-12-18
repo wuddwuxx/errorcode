@@ -90,4 +90,8 @@ public interface StudentMapper {
      * @mbggenerated Tue Dec 17 09:20:18 CST 2019
      */
     int updateByPrimaryKey(Student record);
+
+
+
+    List<Student> getAllStudents();
 }
